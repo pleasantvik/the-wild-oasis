@@ -1,12 +1,11 @@
 import styled from "@emotion/styled";
 
-const Title = styled.h1`
-  font-size: 1.5em;
-  text-align: center;
-  color: #bf4f74;
+const H1 = styled.h1`
+  font-size: 30px;
+  font-weight: 600;
 `;
 function App() {
-  return <Title>hello hi</Title>;
+  return <H1>The Wild Oasis</H1>;
 }
 
 export default App;
