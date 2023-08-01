@@ -2,13 +2,14 @@ import Heading from "../ui/Heading";
 import Row from "../ui/Row";
 import CabinTable from "src/features/cabins/CabinTable";
 import AddCabin from "src/features/cabins/AddCabin";
+import CabinsTableOperations from "src/features/cabins/CabinsTableOperations";
 
 function Cabins() {
   return (
     <>
       <Row type="horizontal">
         <Heading as="h1">All cabins</Heading>
-        <p>Filter / sort</p>
+        <CabinsTableOperations />
       </Row>
       <Row>
         <CabinTable />
